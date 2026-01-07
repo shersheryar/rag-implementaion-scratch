@@ -4,3 +4,21 @@ venv/
 env/
 .env
 
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Lock files
+uv.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+

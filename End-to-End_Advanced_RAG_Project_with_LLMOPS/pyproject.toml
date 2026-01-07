@@ -1,0 +1,17 @@
+[project]
+name = "end-to-end-advanced-rag-project-with-llmops"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "llama-index",
+    "llama-index-llms-huggingface",
+    "llama-index-embeddings-huggingface",
+    "transformers",
+    "accelerate",
+    "torch",
+    "python-dotenv",
+    "sentence-transformers",
+    "streamlit>=1.52.2",
+]
